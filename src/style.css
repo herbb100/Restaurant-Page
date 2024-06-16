@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styling portion of the global components*/
+body{
+    height: 100vh;
+}
+
+button{
+    font-size: 1.3rem;
+
+    border: 1px white solid;
+    padding:2px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px black solid;
+}
+
+header{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    height: 95%;
+}
+
+#content>p{
+    text-align: center;
+}
+
+/* Styling of the home components*/
+
+/* Styling of the menu components*/
+
+/* Styling of the contact components*/
+
+/* Styling of the about components*/
